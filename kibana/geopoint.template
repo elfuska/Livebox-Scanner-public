@@ -1,4 +1,4 @@
-curl -X PUT "http://192.168.150.113:9200/liveboxes-*" -H 'Content-Type: application/json' -d '{
+curl -X PUT "http://<your.elastic.instance>:9200/liveboxes-*" -H 'Content-Type: application/json' -d '{
   "mappings": {
     "properties": {
       "geoip": {
